@@ -1,0 +1,92 @@
+html{font-size: 100%;
+    box-sizing: border-box;}
+*,*::after,*::before{box-sizing: inherit;}
+
+.content{font-family: 'Overpass';
+    background-color:hsl(216, 12%, 8%);
+    display: flex;
+    height:100vh;
+    margin:0px;
+    align-items: center;
+    justify-content: center;}
+#remove{display:none}
+
+.rating{
+        background-color: hsl(213, 19%, 18%);
+        max-width: 26.07rem;
+        border-radius: 1.42rem;}
+.img{margin: 2.14rem 0px 1.785rem 2.14rem;
+    background-color:hsl(211, 19%, 23%);
+    width: 3.214rem;
+    height: 3.214rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.rating h2{margin:1.785rem 0px 0px 2.142rem;
+            color:white}
+.rating p{margin:1.071rem 2.142rem 1.428rem 2.142rem;
+        line-height: 1.42rem;
+        color: hsl(217, 12%, 63%);}
+.list{
+        margin: 0px 2.142rem 0.714rem 2.142rem;
+        width: 21.785rem;
+        list-style-type: none;
+        display: flex;
+        align-items:center;
+        padding: 0px;
+        justify-content:space-evenly;}
+.listitem{
+        font-family:  'Overpass';
+        font-size: 1rem;
+        border: 0px;
+        line-height: 3.35rem;
+        text-align: center;
+        color:white;
+        background-color: hsl(211, 19%, 23%);
+        width: 3.214rem;
+        height: 3.214rem;
+        transition: 0.3s;
+        border-radius: 50%;}
+#submitbtn{
+            font-family:'Overpass';
+            width:21.785rem;
+            background-color:hsl(25, 97%, 53%);
+            border:0px;
+            border-radius: 20px;
+            color:white;
+            line-height: 1.428rem;
+            letter-spacing: 0.214rem;
+            font-size: 1rem;
+            font-weight: 700;
+            margin: 1.428rem 2.142rem 2.142rem 2.142rem;
+            transition: 0.3s;
+            height: 2.5rem}
+.thankyou{
+          background-color: hsl(213, 19%, 18%);
+          max-width: 26.0714rem;
+          border-radius: 1.42rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;}
+.img2{margin: 2.857rem 2.142rem 1.428rem 2.142rem;}
+.score{padding:0.5rem 1.428rem 0.357rem 1.428rem;
+    margin:0.714rem 0px 1.428rem 0px;
+    border-radius: 1.428rem;
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(211, 19%, 23%);}
+#thanktxt{color:white;
+        margin:0.714rem 0px 0px 0px;}
+#para{color:  hsl(217, 12%, 63%);
+    margin: 0.714rem 2.142rem 2.142rem 2.142rem;}
+.listitem:hover{background-color:hsl(25, 97%, 53%);
+                cursor: pointer;}
+.listitem:focus{background-color: hsl(217, 12%, 63%);}
+#submitbtn:hover{cursor:pointer;
+                background-color: white;
+                color:hsl(25, 97%, 53%);}
+
+
+
+
